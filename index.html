@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vadim Lasevich CV</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <span class="logo__text-big">VadimLasevich</span>
+          <span class="logo__text-smal">FRONTEND WEB DEVELOPER</span>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#skills">Навыки</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#works">Работы</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#footer">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="first-screen">
+        <div class="container">
+          <div class="first-screen__photo">
+            <img src="images/my-photo-min.jpg" alt="my photo" />
+          </div>
+          <div class="first-screen__text-about">
+            Я - начинающий Frontend-разработчик. Ищу перспективную и интересную работу стажера/ младшего Frontend-разработчика с
+            возможностью профессионального и личностного роста. Имею опыт создания адаптивной, отзывчивой, кроссбраузерной верстки
+            лендингов и создания многостраничных сайтов. Последнее время изучаю React, имею несколько несложных проектов на
+            JavaScript и ReactJS.
+          </div>
+          <ul class="first-screen__contacts">
+            <li class="first-screen__contacts-item">
+              <a class="first-screen__contacts-link" href="https://t.me/vadim_lasevich" target="_blank">
+                <svg class="first-screen__contacts-link-icon contacts-link-icon">
+                  <use xlink:href="./images/sprite.svg#telegram" />
+                </svg>
+              </a>
+            </li>
+            <li class="first-screen__contacts-item">
+              <a class="first-screen__contacts-link" href="https://api.whatsapp.com/send?phone=375298286211" target="_blank">
+                <svg class="first-screen__contacts-link-icon contacts-link-icon">
+                  <use xlink:href="./images/sprite.svg#whatsapp" />
+                </svg>
+              </a>
+            </li>
+            <li class="first-screen__contacts-item">
+              <a class="first-screen__contacts-link" href="https://github.com/vadimlasevich" target="_blank">
+                <svg class="first-screen__contacts-link-icon contacts-link-icon">
+                  <use xlink:href="./images/sprite.svg#github" />
+                </svg>
+              </a>
+            </li>
+            <li class="first-screen__contacts-item">
+              <a class="first-screen__contacts-link" href="https://www.linkedin.com/in/vadim-lasevich-ba44b8230/" target="_blank">
+                <svg class="first-screen__contacts-link-icon contacts-link-icon">
+                  <use xlink:href="./images/sprite.svg#linkedin" />
+                </svg>
+              </a>
+            </li>
+            <li class="first-screen__contacts-item">
+              <a class="first-screen__contacts-link" href="mailto:lasevichvadim@gmail.com" target="_blank">
+                <svg class="first-screen__contacts-link-icon contacts-link-icon">
+                  <use xlink:href="./images/sprite.svg#gmail" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">Навыки и технологии, которыми я владею и использую при работе</h2>
+          <ul class="skills__items">
+            <li class="skills__item">
+              <img src="images/icon-html.png" alt="skills-item" />
+              <span>HTML5</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-css.png" alt="skills-item" />
+              <span>CSS3 (BEM methodology)</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-sass.png" alt="skills-item" />
+              <span>SCSS/SASS</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-js.png" alt="skills-item" />
+              <span>JavaScript</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-react.png" alt="skills-item" />
+              <span>React JS</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-webpack.png" alt="skills-item" />
+              <span>WEBPACK</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-gulp.png" alt="skills-item" />
+              <span>GULP</span>
+            </li>
+            <li class="skills__item">
+              <img src="images/icon-git.png" alt="skills-item" />
+              <span>GIT</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="works" id="works">
+        <div class="container">
+          <h2 class="section-title">Мои выполненные проекты</h2>
+          <div class="works__slider">
+            <div class="works-slider__wrapper">
+              <div class="works-slider__container">
+                <div class="works-slider__slide">
+                  <div class="works-slider__slide-content">
+                    <div class="works-slider__slide-image">
+                      <img src="images/site-cargo-img.jpg" alt="image-slide" />
+                    </div>
+                    <a
+                      class="works-slider__slide-link btn-reset"
+                      href="https://vadimlasevich.github.io/china-delivery-site/"
+                      target="_blank"
+                      >Посмотреть</a
+                    >
+                  </div>
+                </div>
+                <div class="works-slider__slide">
+                  <div class="works-slider__slide-content">
+                    <div class="works-slider__slide-image">
+                      <img src="images/site-dental-clinic.jpg" alt="image-slide" />
+                    </div>
+                    <a
+                      class="works-slider__slide-link btn-reset"
+                      href="https://vadimlasevich.github.io/dental-clinic-website/"
+                      target="_blank"
+                      >Посмотреть</a
+                    >
+                  </div>
+                </div>
+                <div class="works-slider__slide">
+                  <div class="works-slider__slide-content">
+                    <div class="works-slider__slide-image">
+                      <img src="images/site-interior-img.jpg" alt="image-slide" />
+                    </div>
+                    <a
+                      class="works-slider__slide-link btn-reset"
+                      href="https://vadimlasevich.github.io/furniture-store-website/"
+                      target="_blank"
+                      >Посмотреть</a
+                    >
+                  </div>
+                </div>
+                <div class="works-slider__slide">
+                  <div class="works-slider__slide-content">
+                    <div class="works-slider__slide-image">
+                      <img src="images/site-selectioncar-img.jpg" alt="image-slide" />
+                    </div>
+                    <a
+                      class="works-slider__slide-link btn-reset"
+                      href="https://vadimlasevich.github.io/car-selection-site/"
+                      target="_blank"
+                      >Посмотреть</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <button class="works-slider__button works-slider__btn-prev btn-reset">
+                <img src="./images/arrow.png" alt="arrow" />
+              </button>
+              <button class="works-slider__button works-slider__btn-next btn-reset">
+                <img src="./images/arrow.png" alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <h2 class="section-title">Мои контакты</h2>
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a class="footer__link" href="https://t.me/vadim_lasevich" target="_blank">
+              <svg class="footer__contacts-link-icon contacts-link-icon">
+                <use xlink:href="./images/sprite.svg#telegram" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://api.whatsapp.com/send?phone=375298286211" target="_blank">
+              <svg class="footer__contacts-link-icon contacts-link-icon">
+                <use xlink:href="./images/sprite.svg#whatsapp" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://github.com/vadimlasevich" target="_blank">
+              <svg class="footer__contacts-link-icon contacts-link-icon">
+                <use xlink:href="./images/sprite.svg#github" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://www.linkedin.com/in/vadim-lasevich-ba44b8230/" target="_blank">
+              <svg class="footer__contacts-link-icon contacts-link-icon">
+                <use xlink:href="./images/sprite.svg#linkedin" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="mailto:lasevichvadim@gmail.com" target="_blank">
+              <svg class="footer__contacts-link-icon contacts-link-icon">
+                <use xlink:href="./images/sprite.svg#gmail" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

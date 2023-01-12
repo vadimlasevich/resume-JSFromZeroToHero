@@ -1,0 +1,30 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.main {
+}
+.section-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.btn-reset {
+  border: none;
+  background: transparent;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-reset:active {
+  outline: none;
+}
+.contacts-link-icon {
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.5s ease;
+}
