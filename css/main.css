@@ -161,13 +161,16 @@
 .works {
   margin: 15rem 0;
 }
-.works-slider__wrapper {
+.works__slider {
   position: relative;
-  margin: 0 4rem;
+}
+.works-slider__wrapper {
+  margin: 0 3rem;
+  overflow: hidden;
 }
 .works-slider__container {
   display: flex;
-  overflow: hidden;
+  transition: all 0.5s ease;
 }
 .works-slider__slide {
   min-width: 50%;
@@ -224,11 +227,11 @@
   height: 3rem;
 }
 .works-slider__btn-prev {
-  left: -3rem;
+  left: -2rem;
   transform: rotate(-180deg);
 }
 .works-slider__btn-next {
-  right: -3rem;
+  right: -2rem;
 }
 
 .footer {
